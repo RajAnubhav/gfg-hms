@@ -1,0 +1,40 @@
+body{
+	background-color:#fbf3f3;}
+img{
+	height:140px;
+	width:120px;}
+h1{
+	text-shadow:3px 3px 5px #000000;
+	animation-name:doctors;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+}
+@keyframes doctors{
+	from{color:black;}
+	to{color:#00F2FF;}
+}
+input.button {
+	background-color:#fdfdfd;
+	border:none;
+	color:#00ff00;
+	padding: 7px 9px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size:16px;
+	margin: 1px 0px;
+	cursor: pointer;
+	animation-name:but;
+	animation-duration:5s;
+	animation-iteration-count:infinte;
+}
+@keyframes but{
+	from{background-color:#fdfdfd;}
+	to{background-color:#aaaaaa;}
+	from{color:#00ff00;}
+	to{color:#000000;}
+	}
+p{
+	background-color:#bfbfbf;
+	width:300px;
+	font-family: "Sofia", sans-serif;}
